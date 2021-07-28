@@ -4,6 +4,8 @@ theme: hugo-theme-stack
 paginate: 5
 title: 隨想Records
 
+staticDir: static
+
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
 
@@ -27,7 +29,7 @@ params:
 
     footer:
         since: 2021
-        customText:
+        customText: 
 
     dateFormat:
         published: 2006-01-02
@@ -91,13 +93,20 @@ params:
         enabled:
             - search
             - archives
-            - tag-cloud
+            - links
 
         archives:
             limit: 5
 
         tagCloud:
             limit: 10
+        links:
+            instagram:
+                src: /img/instagram_240.png
+                href: https://www.instagram.com/hensuu_lsu/
+            github:
+                src: 
+                href: https://github.com/hensuu
 
     opengraph:
         twitter:
@@ -139,7 +148,7 @@ menu:
 
 related:
     includeNewer: true
-    threshold: 0
+    threshold: 60
     toLower: false
     indices:
         - name: tags
