@@ -1,13 +1,5 @@
 {{- $ThemeVersion := "2.5.0" -}}
 <footer class="site-footer">
-    <section class="links">
-        <a href="{{ $.Site.Params.widgets.links.instagram.href }}" class="instagram">
-            <img src="{{ $.Site.Params.widgets.links.instagram.src }}"></img>
-        </a>
-        <a href="{{ $.Site.Params.widgets.links.instagram.href }}" class="instagram">
-            <img src="{{ $.Site.Params.widgets.links.instagram.src }}"></img>
-        </a>
-    </section>
     <section class="copyright">
         &copy; 
         {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
