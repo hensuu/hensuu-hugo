@@ -133,6 +133,28 @@
     }
 }
 
+
+[data-scheme="dark"] {
+    #dark-mode-toggle {
+        color: var(--accent-color);
+        font-weight: 700;
+    }
+}
+
+#dark-mode-toggle {
+    margin-top: auto;
+    color: var(--body-text-color);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    div{
+        display: flex;
+        align-items: center;
+        
+    }
+}
+
+/*
 [data-scheme="dark"] {
     #dark-mode-toggle {
         color: var(--accent-color);
@@ -159,3 +181,5 @@
         display: none;
     }
 }
+
+*/
