@@ -1,7 +1,7 @@
 baseurl: https://hensuu.csie.org
 languageCode: zh-tw
 theme: hugo-theme-stack
-paginate: 5
+paginate: 10
 title: 隨想Records
 
 staticDir: static
@@ -37,7 +37,7 @@ params:
 
     sidebar:
         emoji: 🐣
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: hensuu
         avatar:
             enabled: true
             local: true
