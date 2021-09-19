@@ -7,7 +7,7 @@ title: 隨想Records
 staticDir: static
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: hensuu
 
 # GA Tracking ID
 googleAnalytics:
@@ -75,16 +75,14 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/client.html
         waline:
-            serverURL:
-            lang:
-            visitor:
+            serverURL: https://hensuu-blog-waline-hensuu.vercel.app/
+            lang: 'zh-TW'
+            visitor: true
             avatar:
             emoji:
-                - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+                - https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji
+            meta: ['nick']
             requiredMeta:
-                - name
-                - email
-                - url
             placeholder:
             locale:
                 admin: Admin
@@ -102,11 +100,14 @@ params:
             limit: 10
         links:
             instagram:
-                src: /img/instagram_240.png
-                href: https://www.instagram.com/hensuu_lsu/
+                src: /img/links/instagram_240.png
+                href: https://www.instagram.com/hensuu555/
             github:
-                src: 
+                src: /img/links/github.png
                 href: https://github.com/hensuu
+            youtube:
+                src: /img/links/youtube.png
+                href: https://www.youtube.com/channel/UCzsZ7QiIj1RzYAacd3cZf8w
 
     opengraph:
         twitter:
